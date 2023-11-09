@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header {
+    padding: 30px 40px;
+    text-align: center;
+    background-color: rgb(72, 132, 148);
+    height: 150px;
+}
+
+h1 {
+    color: white;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+input {
+    border: none;
+    width: 75%;
+    float: left;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px 0 0 3px;
+    
+}
+
+.addBtn {
+    cursor: pointer;
+    width: 25%;
+    float: left;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    border-radius: 0 3px 3px 0;
+}
+
+.addBtn:hover {
+    background-color: darkgrey;
+}
+
+ul li{
+    padding: 15px;
+    cursor: pointer;
+    background-color: lightblue;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(57, 56, 56);
+    position: relative;
+}
+
+ul li:nth-child(odd){
+    background-color: lightcyan;
+}
+
+ul li:hover {
+    background-color: rgb(113, 174, 191);
+    color: white;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    left: 92%;
+    top: 0;
+    height: 100%;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color:red;
+    color: white;
+}
+
+
+
+
+
+
